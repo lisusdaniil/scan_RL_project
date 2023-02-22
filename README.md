@@ -8,7 +8,7 @@ conda activate scanRL
 conda install pip
 cd gym-unrealcv
 pip install -e .
-conda install --channel https://conda.anaconda.org/menpo opencv3
+conda install --channel menpo opencv
 pip install tensorflow
 conda install -c open3d-admin open3d 
 ```

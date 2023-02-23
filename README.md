@@ -9,6 +9,8 @@ conda install pip==20.2.1
 cd gym-unrealcv
 pip install -e .
 conda install --channel menpo opencv
-pip install tensorflow
-conda install -c open3d-admin open3d 
+cd ..
+cd ScanRL
+pip install -r requirements.txt
+pip install docker
 ```
